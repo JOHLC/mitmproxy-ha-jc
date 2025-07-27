@@ -1,6 +1,6 @@
 {
   "name": "mitmproxy",
-  "version": "dev",
+  "version": "1.0.0",
   "slug": "mitmproxy",
   "panel_icon": "mdi:lan-connect",
   "description": "A free and open source interactive HTTPS proxy for intercepting and inspecting network traffic",
@@ -13,7 +13,7 @@
     "i386"
   ],
   "hassio_api": true,
-  "image": "ghcr.io/JOHLC/mitmproxy-ha-jc-{arch}",
+  "image": "ghcr.io/lildude/ha-addon-mitmproxy-{arch}",
   "map": ["ssl", "share:rw"],
   "ports": {
     "8081/tcp": 8081,
